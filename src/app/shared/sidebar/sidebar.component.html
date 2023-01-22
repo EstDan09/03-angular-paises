@@ -1,0 +1,29 @@
+<h2>País Finder</h2>
+        <hr>
+
+        <ul class="list-group">
+
+            <li routerLink=""
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact: true}"
+                class="list-group-item"
+            >   Buscar País
+            </li>
+            
+            <!-- para que muestre solo azul en el path exacto, la parte de exact:true -->
+
+            <li routerLink="region"
+                routerLinkActive="active"
+                class="list-group-item"
+            >
+                Buscar por Región
+            </li>
+
+            <li routerLink="capital"
+                routerLinkActive="active"
+                class="list-group-item"
+            >
+                Buscar por Capital
+            </li>
+
+        </ul>
